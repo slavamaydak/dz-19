@@ -1,0 +1,56 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Montserrat";
+}
+
+.menu {
+  background-color: #181b1e;
+  height: 100vh;
+  width: 250px;
+  border-radius: 0px 15px 15px 0px;
+  padding: 13px;
+}
+
+.pop {
+  font-weight: 300;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #64676a;
+  padding: 40px 0px 20px 12px;
+  box-sizing: border-box;
+}
+
+.pop-2 {
+  font-weight: 300;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #575a5d;
+  padding: 20px 0px 20px 12px;
+  box-sizing: border-box;
+}
+
+.tut {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: 10px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.tut:hover {
+  background-color: rgb(64, 64, 64);
+}
+
+.img-wrapper {
+  fill: #999aa0;
+  max-width: 35px;
+  display: inline-block;
+}
+
+.tut-text {
+  font-size: 15px;
+  color: #999aa0;
+  font-weight: 400;
+}
